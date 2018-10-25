@@ -69,9 +69,14 @@
   <ItemGroup>
     <Content Include="img\VIAlogo.png" />
     <Content Include="RegisterForm.aspx" />
+<<<<<<< HEAD
+    <Content Include="Web.config" />
+    <Content Include="WebformRegisternomaster.aspx" />
+=======
     <Content Include="style\stylesheet.css" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Header.Master.cs">
@@ -82,6 +87,8 @@
       <DependentUpon>Header.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -89,6 +96,7 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
     <Compile Include="RegisterForm.aspx.cs">
       <DependentUpon>RegisterForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,6 +104,16 @@
     <Compile Include="RegisterForm.aspx.designer.cs">
       <DependentUpon>RegisterForm.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="WebformRegisternomaster.aspx.cs">
+      <DependentUpon>WebformRegisternomaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebformRegisternomaster.aspx.designer.cs">
+      <DependentUpon>WebformRegisternomaster.aspx</DependentUpon>
+    </Compile>
+=======
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
   </ItemGroup>
   <ItemGroup>
     <Content Include="Header.Master" />
