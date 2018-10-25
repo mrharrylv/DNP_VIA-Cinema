@@ -69,17 +69,16 @@
   <ItemGroup>
     <Content Include="img\VIAlogo.png" />
     <Content Include="RegisterForm.aspx" />
+<<<<<<< HEAD
     <Content Include="Web.config" />
     <Content Include="WebformRegisternomaster.aspx" />
+=======
+    <Content Include="style\stylesheet.css" />
+    <Content Include="Web.config" />
+    <Content Include="Home.aspx" />
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Footer.Master.cs">
-      <DependentUpon>Footer.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Footer.Master.designer.cs">
-      <DependentUpon>Footer.Master</DependentUpon>
-    </Compile>
     <Compile Include="Header.Master.cs">
       <DependentUpon>Header.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,6 +87,16 @@
       <DependentUpon>Header.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
     <Compile Include="RegisterForm.aspx.cs">
       <DependentUpon>RegisterForm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,6 +104,7 @@
     <Compile Include="RegisterForm.aspx.designer.cs">
       <DependentUpon>RegisterForm.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="WebformRegisternomaster.aspx.cs">
       <DependentUpon>WebformRegisternomaster.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -102,10 +112,11 @@
     <Compile Include="WebformRegisternomaster.aspx.designer.cs">
       <DependentUpon>WebformRegisternomaster.aspx</DependentUpon>
     </Compile>
+=======
+>>>>>>> 9b6a1287e3d7dd88b079ab64af0e6bc0b5a654ae
   </ItemGroup>
   <ItemGroup>
     <Content Include="Header.Master" />
-    <Content Include="Footer.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -114,6 +125,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

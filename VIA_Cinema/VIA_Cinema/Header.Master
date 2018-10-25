@@ -7,6 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="style/stylesheet.css" rel="stylesheet"  type="text/css"/>
     <style type="text/css">
         .auto-style1 {
             width: 178px;
@@ -16,12 +17,24 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+        <div class="header">
+
+            <img alt="VIA logo" class="img_logo" longdesc="VIA logo" src="img/VIAlogo.png"/>
+            <h1> VIA CINEMA </h1>
+
+            
+            <a class="btn_login" href="">login</a>
+            <a class="btn_login" href="RegisterForm.aspx">register</a>
+
         </div>
+
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        <div class="footer">
+            Footer
+        </div>
+   
     </form>
-    <p>
-        <img alt="VIA logo" class="auto-style1" longdesc="VIA logo" src="img/VIAlogo.png" /></p>
 </body>
 </html>
