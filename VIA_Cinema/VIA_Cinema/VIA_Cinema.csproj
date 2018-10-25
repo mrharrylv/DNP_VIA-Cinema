@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="img\VIAlogo.png" />
+    <Content Include="RegisterForm.aspx" />
     <Content Include="style\stylesheet.css" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
@@ -87,6 +88,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.aspx.cs">
+      <DependentUpon>RegisterForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.aspx.designer.cs">
+      <DependentUpon>RegisterForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
