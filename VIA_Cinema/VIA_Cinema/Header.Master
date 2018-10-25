@@ -7,6 +7,12 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 178px;
+            height: 175px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -15,5 +21,7 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
+    <p>
+        <img alt="VIA logo" class="auto-style1" longdesc="VIA logo" src="img/VIAlogo.png" /></p>
 </body>
 </html>
